@@ -4,6 +4,10 @@ namespace WA\Utilities;
 
 class Text
 {
+    /**
+     * Checks whether the given argument
+     * is a Roman Numeral
+     */
     public static function isRomanNumeral($letters)
     {
         $letters = str_split(strtoupper($letters));
@@ -22,7 +26,7 @@ class Text
      * Get duration format from \DateInterval Object
      * based on ISO 8601 duration specification
      */
-    public function toDateIntervalDuration(\DateInterval $interval = null)
+    public static function toDateIntervalDuration(\DateInterval $interval = null)
     {
         if (!isset($interval)) {
             return false;
