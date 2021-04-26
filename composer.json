@@ -2,14 +2,9 @@
     "name": "wa/utilities",
     "description": "A Simple Utilities Library for PHP",
     "version": "1.0.0",
+    "minimum-stability": "dev",
     "type": "library",
     "license": "MIT",
-    "authors": [
-        {
-            "name": "William Antony",
-            "email": "william@pathadan.com"
-        }
-    ],
     "require": {},
     "autoload": {
         "psr-4": { 
